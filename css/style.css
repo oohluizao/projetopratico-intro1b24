@@ -1,0 +1,105 @@
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo,
+.menu {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: inline;
+    padding: 0 30px;
+    font-size: 30px;
+}
+
+.menu {
+    position: relative;
+    bottom: 40px;
+}
+
+.menu ul li a:hover {
+    color: red;
+    border-bottom: 3px solid red;
+    padding-bottom: 15px;
+}
+
+.slider {
+    background-image: url('../img/slider.jpeg');
+    height: 400px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border:2px solid #f2f2f2
+}
+.item img{
+    width: 100%;
+    padding: 1%;
+  
+}
+.item .titulo, .item .preco{
+    font-size: 30px;
+ text-align: center;
+ font-weight: 800;
+}
+.btn{
+    background-color: #dc0502;
+    color:black;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.item a {
+    text-decoration: none;
+}
+footer { background-color: #020202;
+    color: #f2f2f2;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+footer label , footer input, footer textarea{
+width: 100%;
+padding: 10px;
+margin: 10px;
+}
+footer form{ 
+    width: 100%;
+   max-width: 500px; 
+   margin: 0 auto;
+}
+  .whats {
+    background-color: #0df834;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0%;
+    right :150px;
+    padding:20px;
+}  
+
+
+   
